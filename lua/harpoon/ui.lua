@@ -35,7 +35,7 @@ local function create_window()
     local bufnr = vim.api.nvim_create_buf(false, false)
 
     local Harpoon_win_id, win = popup.create(bufnr, {
-        title = "Harpoon",
+        title = "Harpoon - Isaiah",
         highlight = "HarpoonWindow",
         line = math.floor(((vim.o.lines - height) / 2) - 1),
         col = math.floor((vim.o.columns - width) / 2),
